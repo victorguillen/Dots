@@ -73,4 +73,8 @@ class Particle {
 
 Future Additions
 
-I plan to add a drop down menu to select different time settings for a longer play time.
+I plan to add:
+
+A drop down menu to select different time settings for a longer play time.
+
+A phone frame around the game.
