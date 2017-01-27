@@ -1,10 +1,12 @@
 Dots
 
-Dots! Live
+[Dots Live][dots]
+
+[dots]: https://mttmcgrgr.github.io/breakout/
 
 Dots is inspired on a game produced by Betaworks and developed at Playdots, Inc.. The player tries to connect as many dots possible of the same color under 60 seconds.
 
-dots //image
+<img src="docs/images/dotsClassic.gif" width="300">
 
 Score
 
