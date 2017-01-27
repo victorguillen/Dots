@@ -6,6 +6,8 @@ Dots
 
 Dots is inspired on a game produced by Betaworks and developed at Playdots, Inc.. The player tries to connect as many dots possible of the same color under 60 seconds.
 
+This game works on mobile too!
+
 <img src="docs/images/dotsClassic.gif" width="300">
 
 Score
