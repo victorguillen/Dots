@@ -1,4 +1,4 @@
-.canv {
-  display: block;
-  margin-left: 300px;
+.divC {
+  display: flex;
+  align-items: center;
 }
