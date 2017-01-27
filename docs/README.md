@@ -9,25 +9,25 @@ Gameplay of Dots: users connect lines of dots to eliminate all dots in that line
 
 There's a score count of how may dots have been connected and a timer counting down to zero. When the timer hits zero the game is over and a play again button appears on screen to play a new game.
 
-The game includes background music which can be muted by clicking on the speaker icon.
+The game includes sound effects which can be muted by clicking on the speaker icon.
 
 ### Functionality & MVP  
 
 User will be able to:
 
-- [ ] Read the instructions through a modal popup.
-- [ ] Start, pause, restart and mute the background music.
+- [ ] Mute the sound effect.
+- [ ] Start, pause, restart.
 - [ ] Use of mouse to connect the dots.
 
 
 This project will include:
 
 - [ ] A production Readme
-- [ ] An intro showing how to play the game. Include a modal with instructions and a gif.
+- [ ] Buttons that can toggle play/pause and mute.
 
 ### Wireframes
 
-This game will consist of a single screen with a gif popup explaining how the game works. The screen will then transition to the game with a Play button in the center. When the user connects the dots the score will appear on the screen along with a Play Again button and a mute button on the top right corner.
+This game will consist of a single screen When the screen loads dots will drop and bounce on the screen. A play button to start or pause the game. When the user connects the dots the score will appear on the screen, a mute button is available on the top right corner.
 
 
 <img src="wireframes/dots.png" width="300">
