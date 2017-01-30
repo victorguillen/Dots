@@ -1,3 +1,14 @@
+.page-container {
+    display: -webkit-box;
+    display: flex;
+
+    -webkit-box-orient: vertical;
+    flex-direction: column;
+
+    padding: 20px;
+    box-sizing: border-box;
+}
+
 .divC {
   display: flex;
   flex-flow: row;
