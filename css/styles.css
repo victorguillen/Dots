@@ -8,6 +8,7 @@
     padding: 20px;
     box-sizing: border-box;
     overflow: hidden;
+    position: relative;
 }
 
 .divC {
@@ -16,6 +17,8 @@
   justify-content: center;
   min-height: 100vh;
   align-items: center;
+  position: absolute;
+  left: 37.7%;
 }
 
 body {
