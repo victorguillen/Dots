@@ -17,3 +17,13 @@
   min-height: 100vh;
   align-items: center;
 }
+
+body {
+    background-image: url("http://res.cloudinary.com/duovuuybb/image/upload/v1487380454/Artboard_1_ksldlf.png");
+    background-size: 30% 70%;
+    background-color: '#CCC1A8';
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
