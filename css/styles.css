@@ -46,5 +46,5 @@ body {
   /*background-size: 30% 70%;*/
 
   position: relative;
-  overflow-x: hidden;
+  overflow: hidden;
 }
