@@ -1,7 +1,10 @@
 
 .outer-div{
-  position: absolute;
-  width: 100%; height: 100%;
+  position: relative;
+  width: 1350px; height: 800px;
+  background-image: url("http://res.cloudinary.com/duovuuybb/image/upload/v1487380454/Artboard_1_ksldlf.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
   padding: 0;
   margin: 0;
 
@@ -9,22 +12,16 @@
 
 .divC {
   position: absolute;
-  /*top: 120px;
-  left: 523px;*/
-  top: 50%;
-  left: 50%;
-
+  top: 120px;
+  left: 523px;
   padding: 0;
   margin: 0;
 }
 
 html {
-  background-repeat: no-repeat;
-  background-image: url("http://res.cloudinary.com/duovuuybb/image/upload/v1487380454/Artboard_1_ksldlf.png");
-  background-size: cover;
-  display: flex;
+  /*display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center;*/
   overflow: hidden;
   width: 100%;
   height: 100%;
@@ -41,7 +38,9 @@ html {
 }
 
 body {
-  /*width: 1350px; height: 800px;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: 100%;
   margin: 0;
@@ -49,6 +48,6 @@ body {
 
   /*background-size: 30% 70%;*/
 
-  position: relative;
+
   overflow: hidden;
 }
