@@ -12,7 +12,7 @@ Dots is inspired on a game produced by Betaworks and developed at Playdots, Inc.
 
 Game Play
 
-On each rendering of the canvas, dots are iterated through and click event listener animations get triggered. On the first click of a dot, the dot expands and fades out to show it has been selected, on a consecutive click to a dot of the same color a link animation gets triggered to render a link between dots. If you have connected all the possible dots of the same color, the dots disappear and new dots drop from the top.
+    On each rendering of the canvas, dots are iterated through and click event listener animations get triggered. On the first click of a dot, the dot expands and fades out to show it has been selected, on a consecutive click to a dot of the same color a link animation gets triggered to render a link between dots. If you have connected all the possible dots of the same color, the dots disappear and new dots drop from the top.
 
 Score
 
