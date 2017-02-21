@@ -6,9 +6,9 @@ Dots
 
 Dots is inspired on a game produced by Betaworks and developed at Playdots, Inc.. The player tries to connect as many dots possible of the same color under 60 seconds.
 
-This game works on mobile too!
 
-<img src="docs/images/dotsClassic.gif" width="300">
+
+<img src="docs/images/dot.gif" width="300">
 
 Score
 
@@ -32,11 +32,16 @@ The following features are available during play during play:
 
 "Restart" -Allows the user to restart the game.
 
-Eliminating dots
+"Mute" -Allows the user to turn sound effects off.
 
-On each rendering of the canvas, dots are iterated, through an click event listener animations get triggered. On the first click on a dot the dot expands and fades out to show it has been selected, on a consecutive click to a dot of the same color a link animation gets triggered to render a link between dots. If you have connected all the dots of the same color possible, the dots disappear and get replaced by new dots from the top.
+Game Play
 
-The drop effect is made possible by using velocity and gravity, these two attributes create an effect of bounce when the dots drop, velocity slows down by applying a negative gravity.
+On each rendering of the canvas, dots are iterated through and click event listener animations get triggered. On the first click of a dot, the dot expands and fades out to show it has been selected, on a consecutive click to a dot of the same color a link animation gets triggered to render a link between dots. If you have connected all the possible dots of the same color, the dots disappear and new dots drop from the top.
+
+
+Physics of the game
+
+The drop effect is made possible by adding a constant velocity on the x (vx) and y (vy) axis, a negative velocity on the y axis is added to make the dot bounce up once it reaches its end point. The bouncing effect is a combination of negative velocity and gravity. The gravity is implemented by multiplying vy by a negative decimal coefficient, by doing this the velocity in y tends to 0, making the dot come to a complete stop.
 
 ```js
 class Particle {
@@ -72,11 +77,3 @@ class Particle {
   }
 }
 ```
-
-Future Additions
-
-I plan to add:
-
-A drop down menu to select different time settings for a longer play time.
-
-A phone frame around the game.
