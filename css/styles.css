@@ -25,11 +25,11 @@ html {
   height: 100%;
   padding: 0;
   margin: 0;
-  background-color: '#1ABC9C';
 
 }
 
 body {
+  background-color: '#1ABC9C';
   display: flex;
   align-items: center;
   justify-content: center;
@@ -37,6 +37,6 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: inherit;
+  
   overflow: hidden;
 }
