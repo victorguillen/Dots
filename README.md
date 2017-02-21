@@ -16,32 +16,32 @@ Connect dots of the same color to make points before the timer hits 0.
 
 Player Statistics
 
-The following stats are tracked during play:
+    The following stats are tracked during play:
 
-"Time" - Keeps track of the time elapsed.
+    "Time" - Keeps track of the time elapsed.
 
-"Score" - Keeps tracks of the total amount of dots connected.
+    "Score" - Keeps tracks of the total amount of dots connected.
 
 Play Features
 
-The following features are available during play during play:
+    The following features are available during play during play:
 
-"Play" - Allows the user to starts the game.
+    "Play" - Allows the user to starts the game.
 
-"Pause" - Allows the user to pauses the game.
+    "Pause" - Allows the user to pauses the game.
 
-"Restart" -Allows the user to restart the game.
+    "Restart" -Allows the user to restart the game.
 
-"Mute" -Allows the user to turn sound effects off.
+    "Mute" -Allows the user to turn sound effects off.
 
 Game Play
 
-On each rendering of the canvas, dots are iterated through and click event listener animations get triggered. On the first click of a dot, the dot expands and fades out to show it has been selected, on a consecutive click to a dot of the same color a link animation gets triggered to render a link between dots. If you have connected all the possible dots of the same color, the dots disappear and new dots drop from the top.
+    On each rendering of the canvas, dots are iterated through and click event listener animations get triggered. On the first click of a dot, the dot expands and fades out to show it has been selected, on a consecutive click to a dot of the same color a link animation gets triggered to render a link between dots. If you have connected all the possible dots of the same color, the dots disappear and new dots drop from the top.
 
 
 Physics of the game
 
-The drop effect is made possible by adding a constant velocity on the x (vx) and y (vy) axis, a negative velocity on the y axis is added to make the dot bounce up once it reaches its end point. The bouncing effect is a combination of negative velocity and gravity. The gravity is implemented by multiplying vy by a negative decimal coefficient, by doing this the velocity in y tends to 0, making the dot come to a complete stop.
+    The drop effect is made possible by adding a constant velocity on the x (vx) and y (vy) axis, a negative velocity on the y axis is added to make the dot bounce up once it reaches its end point. The bouncing effect is a combination of negative velocity and gravity. The gravity is implemented by multiplying vy by a negative decimal coefficient, by doing this the velocity in y tends to 0, making the dot come to a complete stop.
 
 ```js
 class Particle {
