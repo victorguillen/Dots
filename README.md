@@ -8,7 +8,7 @@ Dots is inspired on a game produced by Betaworks and developed at Playdots, Inc.
 
 
 
-<img src="docs/images/dot.gif" width="300">
+<img src="docs/images/dot.gif" width="200" height="500">
 
 Score
 
