@@ -6,13 +6,17 @@
   background-repeat: no-repeat;
   padding: 0;
   margin: 0;
-  background-color: '#1ABC9C';
+
+  background-size: auto;
 }
 
 .divC {
   position: absolute;
-  top: 120px;
-  left: 523px;
+  /*top: 120px;
+  left: 523px;*/
+  top: 0;
+  left: 0;
+
   padding: 0;
   margin: 0;
 }
