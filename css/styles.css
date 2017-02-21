@@ -2,12 +2,9 @@
 .outer-div{
   position: absolute;
   width: 100%; height: 100%;
-  background-image: url("http://res.cloudinary.com/duovuuybb/image/upload/v1487380454/Artboard_1_ksldlf.png");
-  background-repeat: no-repeat;
   padding: 0;
   margin: 0;
 
-  background-size: cover;
 }
 
 .divC {
@@ -22,6 +19,9 @@
 }
 
 html {
+  background-repeat: no-repeat;
+  background-image: url("http://res.cloudinary.com/duovuuybb/image/upload/v1487380454/Artboard_1_ksldlf.png");
+  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
