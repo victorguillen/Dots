@@ -3,14 +3,25 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width" initial-scale=1.0>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
     <link rel="stylesheet" href="css/styles.css">
     <title></title>
   </head>
   <body >
     <div class="outer-div">
+      <button  onclick="pop()" class="button">HERE!</button>
+      <script language="JavaScript" type="text/javascript"  >
+      function pop() {
+        if(document.getElementsByClassName("popup")[0].style.opacity === "0" ||
+          document.getElementsByClassName("popup")[0].style.opacity === "" ) {
+          document.getElementsByClassName("popup")[0].style.opacity = 0.88;
+        } else {
+          document.getElementsByClassName("popup")[0].style.opacity = 0;
+        }
+      }
+      </script>
       <div class="popup">
-        <video className="video" autoPlay muted loop>
+        <video class="video" autoPlay muted loop>
           <source src="http://res.cloudinary.com/duovuuybb/video/upload/v1487704768/Comp_1_hpbjmy.mp4" type="video/mp4" />
           Could not find video.
         </video>

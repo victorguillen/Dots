@@ -22,20 +22,39 @@
 
 .popup {
   position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
   top: 118px;
-  left: 522px;
-  width: 300px;
-  height: 100px;
+  left: 432px;
+  width: 500px;
+  height: 500px;
+  z-index: 100;
   padding: 0;
   margin: 0;
+  border-radius: 50%;
+  opacity: 0;
   background-color: rgb(0,0,0);
 }
 
 .video {
-  width: 240px;
-  height: 420px;
-  margin-right: 30px;
+  display: flex;
+  width: 200px;
+  height: 380px;
+  margin: 60px;
   z-index: 100;
+  opacity: 1;
+}
+
+.button {
+  position: absolute;
+  top: 628px;
+  left: 665px;
+  width: 35px;
+  height: 35px;
+  opacity: 0;
+
 }
 
 html {
