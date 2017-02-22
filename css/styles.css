@@ -58,7 +58,7 @@
   left: 432px;
   width: 500px;
   height: 500px;
-  z-index: 100;
+
   padding: 0;
   margin: 0;
   border-radius: 50%;
@@ -71,7 +71,7 @@
   width: 200px;
   height: 380px;
   margin: 60px;
-  z-index: 100;
+  
   opacity: 1;
 }
 
