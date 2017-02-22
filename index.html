@@ -24,8 +24,10 @@
         if(document.getElementsByClassName("popup")[0].style.opacity === "0" ||
           document.getElementsByClassName("popup")[0].style.opacity === "" ) {
           document.getElementsByClassName("popup")[0].style.opacity = 0.88;
+          document.getElementsByClassName("popup")[0].style.zIndex = 100;
         } else {
           document.getElementsByClassName("popup")[0].style.opacity = 0;
+          document.getElementsByClassName("popup")[0].style.zIndex = 0;
         }
       }
       </script>
